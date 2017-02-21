@@ -1,0 +1,10 @@
+*.ini
+*.dll
+*exe
+/.sync
+/Debug
+/log
+/Release
+/tinyxml
+/x64
+mmmmw.vcxproj.filters
