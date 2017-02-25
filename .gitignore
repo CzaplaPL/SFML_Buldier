@@ -7,4 +7,5 @@
 /Release
 /tinyxml
 /x64
-mmmmw.vcxproj.filters
+*.vcxproj.filters
+*.vcxproj
