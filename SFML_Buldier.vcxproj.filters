@@ -27,6 +27,15 @@
     <ClCompile Include="zdarzenia.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="obiekty.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tekstury.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="elementy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="log\konsola.log">
@@ -40,25 +49,17 @@
     <ClInclude Include="okna.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="obiekty.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tekstury.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="elementy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="zdarzenia.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="resource.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="resource1.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="resource2.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="resource3.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ResourceCompile Include="Resource.rc">
-      <Filter>Resource Files</Filter>
-    </ResourceCompile>
   </ItemGroup>
 </Project>

@@ -10,12 +10,15 @@ using namespace sf;
 
 class window
 {
-	RenderWindow glowne;
-	View main;
+	Image icon;
+	
+	
 
 
 
 public:
+	RenderWindow glowne;
+	View main;
 	window();
 	~window();
 
