@@ -10,8 +10,8 @@ using namespace sf;
 class ele
 {
 public:
-	okno narzedzia;
-
+	okno *narzedzia;
+	menu *glowne_menu;
 	ele();
 	~ele();
 

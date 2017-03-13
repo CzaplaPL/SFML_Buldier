@@ -121,6 +121,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\monopolygit\monopoly\mmmmw\POMOC_sfml.cpp" />
     <ClCompile Include="consola.cpp" />
     <ClCompile Include="elementy.cpp" />
     <ClCompile Include="obiekty.cpp" />
@@ -135,6 +136,7 @@
   <ItemGroup>
     <ClInclude Include="consola.h" />
     <ClInclude Include="elementy.h" />
+    <ClInclude Include="event.h" />
     <ClInclude Include="tekstury.h" />
     <ClInclude Include="obiekty.h" />
     <ClInclude Include="okna.h" />

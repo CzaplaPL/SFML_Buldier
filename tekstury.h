@@ -9,6 +9,8 @@ class tex
 public:
 	//obiektu okna
 	Texture zamknij_okno;
+	Font Arial;
+	Font Arvo_Regular;
 	tex();
 	~tex();
 

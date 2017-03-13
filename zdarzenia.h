@@ -1,11 +1,14 @@
 #pragma once
-#include <windows.h>
+#include <vector>
+
 #include <SFML/Graphics.hpp>
 
 using namespace sf;
+using namespace std;
 ////////////////////////////////////////////////
-//odpowiade za obsluge komunikatow i wydarzen///
+//odpowiada za obsluge komunikatow i wydarzen///
 ////////////////////////////////////////////////
+
 class wydarzenia
 {
 public:
@@ -14,11 +17,15 @@ public:
 	Vector2f mysz2;
 	Vector2i Mysz;
 	//kolizja okien
-
+	FloatRect glownemenu;	
+	//kolizja menu
+	 bool  kolizja_menu;
 	/////
 	wydarzenia();
 	~wydarzenia();
+	void zdarzenia();
 	void narzêdzia();
+	void menu();
 
 private:
 	
