@@ -7,6 +7,8 @@ using namespace sf;
 class tex
 {
 public:
+
+
 	//obiektu okna
 	Texture zamknij_okno;
 	Font Arial;

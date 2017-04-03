@@ -2,7 +2,7 @@
 #include "obiekty.h"
 #include "consola.h"
 #include "tekstury.h"
-
+#include <vector>
 #include <SFML/Graphics.hpp>
 
 using namespace sf;
@@ -10,7 +10,7 @@ using namespace sf;
 class ele
 {
 public:
-	okno *narzedzia;
+	vector <okno>okienka;
 	menu *glowne_menu;
 	ele();
 	~ele();
@@ -18,5 +18,8 @@ public:
 private:
 
 };
+
+
+
 
 extern ele *elementy;

@@ -7,6 +7,7 @@ using namespace sf;
 
 class czesc
 {
+
 };
 
 
@@ -16,23 +17,29 @@ class okno : public sf::Drawable, public sf::Transformable, public czesc
 {
 public:
 	////////////////////////
-
-
-	///////////////
-	okno();
-	okno(Vector2f rozmiar, Color c_ramka = Color(0, 200, 255), Color c_tlo = Color(240, 240, 240));
-private:
+	
+	FloatRect kolizja_tlo;
+	FloatRect kolizja_ramka;
 	RectangleShape ramka;
 	RectangleShape tlo;
+	void SetSize(Vector2f rozmiar);
+	short miejsce;
+	///////////////
+	okno();
+	okno(Vector2f rozmiar, string nazwa, Color c_ramka = Color(0, 200, 255), Color c_tlo = Color(240, 240, 240));
+private:
 	RectangleShape zamknij;
-
+	Text tytul;
+	bool wyswietlaj_tytul;
 	virtual void draw(sf::RenderTarget& target, sf::RenderStates states) const;
 
 
 };
 //////////////////////////////////////////////////////////////////////
-//menu
 
+
+//menu
+#if(1==1)
 //tytuly menu
 class tytul_menu : public sf::Drawable, public sf::Transformable
 {
@@ -66,3 +73,4 @@ private:
 	virtual void draw(sf::RenderTarget& target, sf::RenderStates states) const;
 };
 
+#endif
